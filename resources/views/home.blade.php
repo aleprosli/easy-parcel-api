@@ -18,6 +18,16 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-md-8">
+            <div class="card mt-2">
+                <div class="card-header">{{ __('Token') }}</div>
+
+                <div class="card-body">
+                    <passport-token></passport-token>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 @endsection
